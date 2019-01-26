@@ -1,0 +1,75 @@
+---
+title: "Text Mining with R: A Tidy Approach"
+output:
+  html_document:
+    df_print: paged
+---
+
+# 00. Introduction to my notes
+
+The book we're reading is Text Mining with R by Julia Silge and David Robinson.
+
+An online version of the book can be found at: https://www.tidytextmining.com/
+
+I propose we do 1 chapter a week, see proposed dates below.
+
+```{r, echo=FALSE}
+x <- data.frame("No" = 1:9,
+                "Chapter Name" = c("The tidy text format",
+                                    "Sentiment analysis with tidy data",
+                                    "Analyzing word and document frequency: tf-idf",
+                                    "Relationships between words: n-grams and correlations",
+                                    "Converting to and from non-tidy formats",
+                                    "Topic modelling",
+                                    "Case study: comparing Twitter archives",
+                                    "Case study: mining NASA metadata",
+                                    "Case study: analyzing usenet text"),
+                "Complete Chapter by" = c("01-Feb-19",
+                                          "08-Feb-19",
+                                          "15-Feb-19",
+                                          "22-Feb-19",
+                                          "01-Mar-19",
+                                          "08-Mar-19",
+                                          "15-Mar-19",
+                                          "22-Mar-19",
+                                          "29-Mar-19")
+                )
+knitr::kable(x)
+```
+
+# 0. Preface
+
+Tidy Text Mining at the 2018 Deming Conference
+https://juliasilge.github.io/deming2018/
+
+List of all packages that do NLP
+https://cran.r-project.org/web/views/NaturalLanguageProcessing.html
+
+The 1 page overview of tidytext
+https://www.theoj.org/joss-papers/joss.00037/10.21105.joss.00037.pdf
+
+
+# 1. The tidy text format
+
+# 2. Sentiment analysis with tidy data
+
+# 3. Analyzing word and document frequency: tf-idf
+
+# 4. Relationships between words: n-grams and correlations
+
+# 5. Converting to and from non-tidy formats
+
+# 6. Topic modeling
+
+# 7. Case study: comparing Twitter archives
+
+# 8. Case study: mining NASA metadata
+
+# 9. Case study: analyzing usenet text
+
+# 10. References
+
+
+
+
+
